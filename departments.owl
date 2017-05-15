@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/find-experts/ontologies/2017/3/departments#"
+     xml:base="http://www.semanticweb.org/find-experts/ontologies/2017/3/departments"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/find-experts/ontologies/2017/3/departments"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#computer_engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#computer_engineering"/>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electric_and_electronic_engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electric_and_electronic_engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electric_and_electronic_engineering"/>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electronic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electronic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electric_and_electronic_engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#hardware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#hardware">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#computer_engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#international_computer_institute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#international_computer_institute"/>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#software">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#computer_engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#ube_hardware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#ube_hardware">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#international_computer_institute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#ube_software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#ube_software">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#international_computer_institute"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#algorithm_analysis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#algorithm_analysis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#data_mining -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#data_mining">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electric_motors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electric_motors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#fpga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#fpga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electronic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#fundamental_algorithmic_techniques -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#fundamental_algorithmic_techniques">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#ube_software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#fuzzy_logic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#fuzzy_logic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#high_voltage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#high_voltage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#logic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#logic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electronic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#machine_learning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#machine_learning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#multi_agent_systems -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#multi_agent_systems">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#ube_software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#network -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#network">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#hardware"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#neural_network -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#neural_network">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#power_machines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#power_machines">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#robotic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#robotic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electronic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#hardware"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#service_oriented_computing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#service_oriented_computing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#ube_software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#vhdl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#vhdl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#electronic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#wireless_sensor_network -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#wireless_sensor_network">
+        <rdf:type rdf:resource="http://www.semanticweb.org/find-expert/ontologies/2017/3/departments#ube_hardware"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
